@@ -5,3 +5,7 @@ let hello = new Promise((resolve, reject) => {
         reject('failed')
     }
 });
+
+let setOutput = (message) => {
+    console.log('The status is: ', message);
+}
